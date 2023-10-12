@@ -1,0 +1,168 @@
+.card_style ::v-deep{
+  .el-card__body{
+    padding: 0;
+  }
+}
+.form_style{
+  padding: 0 15px;
+  .el-col{
+    margin-top: 20px;
+  }
+}
+.right_padding{
+  margin-left:6px;
+}
+.fields-name{
+  height:60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#FAFAFA;
+  .border{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 10px;
+    p{
+      margin-left: 10px;
+      font-weight: bold;
+      span{
+        font-weight: normal;
+      }
+    }
+  }
+  .detail{
+    min-width: 72px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    color: #66974D;
+    cursor: pointer;
+    font-size: 14px;
+    border:  #66974D 1px solid;
+    margin-right: 10px;
+  }
+}
+.area-image{
+  height: 70px;
+  margin-top: 22px;
+  img{
+      width: 26px;
+      height: 26px;
+    }
+  .farmers-crops{
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+    margin-left: 10px;
+      .farmers-item{
+        margin-left: 10px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        color:rgba(0,0,0,.65);
+        p:nth-child(1){
+          width: 60px;
+        }
+        p:nth-child(2){
+          color: black;
+          margin-left: 20px;
+        }
+      }
+  }
+  .crops{
+    margin-top: 26px;
+  }
+}
+.save-footer{
+  ul,li{
+    list-style: none;
+  }
+  ul{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    li:nth-child(1){
+      width: 16px;
+      text-align: center;
+      height: 16px;
+      font-size: 16px;
+      color: #66974D;
+      line-height: 16px;
+      margin-left: -6px;
+      border-radius: 50%;
+      border: #66974D 2px solid;
+    }
+    li:nth-child(2){
+      margin-left: 6px;
+    }
+    li{
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  .el-col{
+    height: 20px;
+    margin-top:30px;
+    border-left: #D8D8D8 2px solid;
+  }
+  .el-col:nth-child(1){
+    border:0;
+  }
+}
+.self-info{
+  .el-col:nth-child(1){
+    text-align: center;
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+  .farmers-crops{
+    display: flex;
+    margin-top:10px;
+    align-items: center;
+    margin-left: 10px;
+    img{
+      width: 26px;
+      height: 26px;
+    }
+    .farmers-item{
+      margin-left: 10px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      color:rgba(0,0,0,.65);
+      p:nth-child(1){
+        min-width:60px;
+      }
+      p:nth-child(2){
+        color: black;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+.map-style {
+  margin-top:16px;
+  height: calc(100vh - 236px);
+}
+.fields-data{
+  height: calc(100vh - 190px);
+  margin-top: 16px;
+  overflow: scroll;
+}
+.fields-data-two{
+  margin-top:16px;
+  height: 100%;
+}
+@media (max-width:1200px) {
+  .medir-style{
+    margin-top:16px;
+  }
+}
+
+

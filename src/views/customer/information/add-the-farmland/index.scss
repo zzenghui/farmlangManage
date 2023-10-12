@@ -1,0 +1,63 @@
+
+@import '../../../../assets/fonts/iconfont.css';
+
+.ele-body {
+  height: calc(100vh - 80px);
+  padding:10px;
+  position: relative;
+}
+
+.map-style {
+  height: 100%;
+  overflow: hidden;
+}
+
+.map-layer{
+  position: absolute;
+  display: flex;
+  top: 36px;
+  right: 50px;
+  width: 272px;
+  height: 33px;
+  border-radius: 3px;
+  background-color: #fff;
+  div{
+    flex: 1;
+    font-size: 14px;
+    line-height: 33px;
+    color: #1A5CDE;
+    text-align: center;
+    cursor: pointer;
+  }
+  div.current{
+    color: #17a8a2;
+  }
+}
+
+.map-control,
+.map-button-box {
+  position: absolute;
+  left: 306px;
+  top: 36px;
+  button {
+    background-color: #fff;
+    border: 0;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    color: #1A5CDE;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+
+.map-control{
+  position: absolute;
+  top: 36px;
+  left: 35px;
+}
+.el-dialog__wrapper {
+  top: 25% !important;
+  left: 20% !important;
+}
+

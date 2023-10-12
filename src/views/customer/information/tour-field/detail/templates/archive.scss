@@ -1,0 +1,42 @@
+// 巡田模板
+$color1: #1890ff;
+$color2: #f1a532;
+$color3: #66974d;
+
+.color-archive1 {
+  color: $color1;
+}
+.color-archive2 {
+  color: $color2;
+}
+.color-archive3 {
+  color: $color3;
+}
+
+.archive1 {
+  background-color: $color1;
+}
+.archive2 {
+  background-color: $color2;
+}
+.archive3 {
+  background-color: $color3;
+}
+
+.schema {
+  font-size: 14px;
+  color: #444;
+  > div {
+    margin-bottom: 20px;
+    label {
+      display: inline-block;
+      width: 70px;
+    }
+  }
+
+  .img {
+    width: 138px;
+    height: 90px;
+    margin-right: 20px;
+  }
+}

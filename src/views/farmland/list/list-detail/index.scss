@@ -1,0 +1,42 @@
+.fields-mes-box{
+  margin: 10px 10px 10px 10px;
+  .el-card{
+    height:calc(100vh - 100px);
+  }
+  h2{
+    font-family: Ping Fang SC;
+    font-size: 16px;
+    color:#66974D;
+    font-weight: 500;
+    height: 22px;
+    line-height: 22px;
+  }
+  &> div{
+    section{
+      display: flex;
+      overflow: hue($color: #000000);
+      margin-top: 20px;
+      label,span{
+        display: inline-block;
+        min-width: 70px;
+      }
+      label{
+        text-align: left;
+        color: black;
+      }
+      span{
+        text-align: left;
+        flex: 1;
+        margin-left: 34px;
+      }
+    }
+  }
+}
+.map{
+  padding: 10px;
+  .map-style{
+    width:100%;
+    height:calc(100vh - 100px);
+  }
+}
+

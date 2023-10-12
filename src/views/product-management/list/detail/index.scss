@@ -1,0 +1,48 @@
+.el-card-row2{
+  margin-top: 15px;
+}
+.el-card-p{
+  font-size:17px;
+  margin-top: 25px;
+}
+.el-card-span{
+  margin-top: 25px;
+  .el-div{
+    display: flex;
+    div{
+      line-height: 25px;
+      margin-left: 10px;
+    }
+  }
+}
+.ele-body{
+  width: calc(100% - 30px);
+  .el-card-define {
+    height: calc(100vh - 90px);
+  }
+  .row-image{
+    margin-top:26px;
+    .upload-image{
+      display: flex;
+      box-sizing: border-box;
+      label{
+        min-width:90px;
+      }
+      .upload-p{
+        display: flex;
+        flex-wrap: wrap;
+       .img{
+          width:143px;
+          height:90px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+.say{
+ display: flex;
+  label{
+    min-width:90px;
+  }
+}

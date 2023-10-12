@@ -1,0 +1,13 @@
+.state-style{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  span{
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,32 @@
+.ele-body {
+  .statuson {
+    color: #00c61b;
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: " ";
+      position: absolute;
+      left: -10px;
+      top: 9px;
+      width: 6px;
+      height: 6px;
+      background-color: #00c61b;
+      border-radius: 6px;
+    }
+  }
+  .statusoff {
+    color: #f00000;
+    display: inline-block;
+    position: relative;
+    &:after {
+      content: " ";
+      position: absolute;
+      left: -10px;
+      top: 9px;
+      width: 6px;
+      height: 6px;
+      background-color: #f00000;
+      border-radius: 6px;
+    }
+  }
+}

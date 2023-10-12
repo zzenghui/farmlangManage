@@ -1,0 +1,15 @@
+.form-info{
+  .el-form-item{
+    width:500px;
+  }
+}
+.never-card{
+  position: relative;
+  height: calc(100vh - 100px);
+  border-top:#23D494 10px solid;
+}
+.form-item-style{
+  text-align: right;
+  position: absolute;
+  bottom:0;
+}

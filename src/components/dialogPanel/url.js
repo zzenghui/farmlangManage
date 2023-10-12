@@ -1,0 +1,1 @@
+export default ['/api/Order','/Question','/UserInside','/api/Solution'];
